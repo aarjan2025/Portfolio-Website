@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #4E6688;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.card{
+    width: 350px;
+    height: 440px;
+    border-radius: 10px;
+    background-color: #0D1164;
+    padding-top: 2mm;
+    position: absolute;
+    top: 25%;    
+}
+.card .title{
+    font-family:'Franklin Gothic Medium';
+    color: white;
+    font-size: smaller;
+    padding: 2%;
+}
+.card .image{
+    display: flex;
+    justify-content:center;
+    margin-top: 5%;
+}
+.card .image .inner{
+    height: 120px;
+    width: 120px;
+    overflow: hidden;
+    border-radius: 10%;
+}
+.card .image .inner img{
+    width: 110%;
+}
+.card .name{
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 3%;
+}
+.card .details{
+    background-color: #EB5B00;
+    height: 18%;
+    margin-top: 10%;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 3.5%;
+    color: white;
+    font-family: open sans-serif;
+    display: flex;
+    font-size: 4.4mm;
+}
+
+.card .details .li{
+    margin-top: 4%;
+}
+.footer{
+    color: white;
+    text-align: center;
+    margin-top: 2.15%;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    margin-left: 2%;
+}
